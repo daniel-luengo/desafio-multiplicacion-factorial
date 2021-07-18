@@ -4,7 +4,7 @@
 
 
 
-function solicitarNumero() {
+const solicitarNumero = () => {
     let valorSeleccionado =parseInt(prompt("Ingrese un numero de 1 a 20"));
     document.write( "<h1>" + "Resultados mostrados por consola, revise la consola por favor" + "</h1>")
 
